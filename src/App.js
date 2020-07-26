@@ -1,6 +1,7 @@
 import React from 'react';
 import MyComponent from './MyComponent';
 
+
 const App = () => {
   return <MyComponent name="강아지" favoriteNumber={3}>고양이</MyComponent>;
 };
