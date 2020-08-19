@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import Welcome from './MyComponent3';
+import React from 'react';
+import EventPractice from './EventPractice';
 
 
-class App extends Component {
-  render(){
-    const name = 'Sara';
-    return <div className='react'>{name}</div>;
-  }
-}
+const App = () => {
+  return <EventPractice />;
+};
 
 export default App;
